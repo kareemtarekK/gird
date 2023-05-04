@@ -1,0 +1,91 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.con{
+   width: 100%;
+   height: 165vh;
+   background-color: #eee;
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+   grid-template-rows: 300px 250px 250px 190px;
+   gap: 10px;
+   padding: 30px;
+}
+.con div{
+   border-bottom: 2.5px solid orangered;
+   transition:.5s;
+   caret-color: red;
+   cursor: pointer;;
+}
+.con div:hover{
+   transform: scale(1.1);
+}
+.con .one{
+   background-color: white;
+   grid-area:1/1/2/7;
+   padding: 10px;
+}
+.con .two{
+   background-color: white;
+   grid-area: 1/7/2/10;
+   padding: 10px;
+}
+.con .three{
+   background-color: rgb(70, 67, 67);
+   grid-area: 1/10/4/13;
+   padding: 10px;
+   color: white;
+}
+.con .four{
+   background-color: white;
+   grid-area: 2/1/4/4;
+   padding: 10px;
+
+}
+.con .five{
+   background-color: rgb(70, 67, 67);
+   grid-area: 2/4/3/10;
+   padding: 10px;
+   color: white;
+}
+.con .six{
+   background-color: white;
+   grid-area: 3/4/4/10;
+   padding: 10px;
+}
+.con .seven{
+   background-color: white;
+   grid-area: 4/1/4/4;
+   padding: 10px;
+}
+.con .eight{
+   background-color: rgb(70, 67, 67);
+   grid-area: 4/4/4/7;
+   padding: 10px;
+   color: white;
+}
+.con .nine{
+   background-color: white;
+   grid-area: 4/7/4/10;
+   padding: 10px;
+}
+.con .ten{
+   background-color: white;
+   grid-area: 4/10/4/13;
+   padding: 10px;
+}
+span{
+   color: gray;
+   font-size: 17px;
+   font-weight: bold;
+}
+p{
+   transform: translateY(15px);
+   font-size: 17px;
+   font-weight: bolder;
+}
+article{
+   transform: translateY(30px);
+}
